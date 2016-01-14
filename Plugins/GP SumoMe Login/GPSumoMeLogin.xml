@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension version="1.0" type="plugin" group="system" method="upgrade">
+    <name>System - GP SumoMe Login</name>
+    <author>Gospel Powered</author>
+    <creationDate>14th January 2016</creationDate>
+    <authorEmail>support@gospelpowered.com</authorEmail>
+    <authorUrl>http://www.gospelpowered.com</authorUrl>
+    <version>1.0</version>
+    <copyright>Copyright (c) 2016 Gospel Powered. All rights reserved.</copyright>
+    <license>http://www.gnu.org/copyleft/gpl.html GNU/GPL</license>
+    <description>
+        <![CDATA[
+
+        <p style="text-align:left">
+            This plugin allows you to register free SumoMe account.
+        </p>
+
+        <h2 style="text-align:left">Instructions</h2>
+        <p style="text-align:left">
+           Click on Options tab and enter the <span style="background-color:#ff0;font-weight:bold;">data-sumo-site-id</span> obtained from SumoMe site: <a href="https://sumome.com/instructions" target="_blank">https://sumome.com/instructions</a>
+        </p>
+        
+        ]]>
+    </description>
+
+    <files>
+        <filename plugin="GPSumoMeLogin">GPSumoMeLogin.php</filename>
+    </files>
+    <config>
+        <fields name="params">
+            <fieldset name="Basic">
+                <field name="site_id"
+                       type="text"
+                       default="4f665ff733ee930f7a1cf7492e51cfe52e66a06be0927129777fd44f505ac43c"
+                       label="Site ID"
+                       description="Visit https://sumome.com/instructions to obtain new ID">
+                </field>
+            </fieldset>
+        </fields>
+    </config>
+</extension>
