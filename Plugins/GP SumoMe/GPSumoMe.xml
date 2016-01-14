@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <extension version="1.0" type="plugin" group="system" method="upgrade">
-    <name>System - GP SumoMe Login</name>
+    <name>System - GP SumoMe</name>
     <author>Gospel Powered</author>
     <creationDate>14th January 2016</creationDate>
     <authorEmail>support@gospelpowered.com</authorEmail>
@@ -24,7 +24,7 @@
     </description>
 
     <files>
-        <filename plugin="GPSumoMeLogin">GPSumoMeLogin.php</filename>
+        <filename plugin="GPSumoMe">GPSumoMe.php</filename>
     </files>
     <config>
         <fields name="params">
