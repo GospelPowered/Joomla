@@ -2,7 +2,7 @@
 /**
  * @version    $version 1.0 Gospel Powered
  * @copyright  Copyright (C) 2016 Gospel Powered (http://www.gospelpowered.com) All rights reserved.
- * @license    GNU/GPL, see LICENSE.txt
+ * @license    GNU/GPL v2, see LICENSE.txt
  *
  * Email: support@gospelpowered.com
  *
